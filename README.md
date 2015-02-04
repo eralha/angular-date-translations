@@ -6,7 +6,7 @@
 
 ##How to use
 
-<p>The json file "js/angular.date.translations.json" have the translation maping from "eng" to "pt", it will allways be from "eng" to some language, because the native language of angular filter "date" in eng.</p>
+<p>The json file "js/angular.date.translations.json" have the translation maping from "eng" to "pt", it will allways be from "eng" to some language, because the native language of angular "date" filter is eng.</p>
 
 <p>Change this file to set your language</p>
 
