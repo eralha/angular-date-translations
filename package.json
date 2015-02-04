@@ -1,0 +1,16 @@
+{
+  "name": "angular-date-translations",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-cli": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-connect": "*",
+    "grunt-template-jasmine-requirejs": "*",
+    "grunt-contrib-jasmine": ""
+  },
+  "scripts": {
+    "test": "grunt --verbose"
+  }
+}
