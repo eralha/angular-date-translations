@@ -1,2 +1,3 @@
 # angular-date-translations
-Translating Date filter Months and days of the week to the language of your choice.
+
+<p>This is a module that extends the angular date filter to add translations to the date filter.</p>
