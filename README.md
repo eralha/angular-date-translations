@@ -1,6 +1,6 @@
 # Angular Date Translations Filter
 
-<p><img src="https://travis-ci.org/eralha/angular-date-translations.svg?branch=master" /></p>
+<p><a href="https://travis-ci.org/eralha/angular-date-translations" target="_blank"><img src="https://travis-ci.org/eralha/angular-date-translations.svg?branch=master" /></a></p>
 
 <p>This is a module that extends the angular date filter to add translations to the date filter.</p>
 
