@@ -1,4 +1,4 @@
-# Angular Date Translations Filter
+# Angular Date Translate Filter
 
 <p><a href="https://travis-ci.org/eralha/angular-date-translations" target="_blank"><img src="https://travis-ci.org/eralha/angular-date-translations.svg?branch=master" /></a></p>
 
