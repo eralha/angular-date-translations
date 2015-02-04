@@ -4,7 +4,6 @@ require.config({
     paths: {
         'angular' : 'lib/angular.min',
         'app' : 'ng/date.translate',
-        'services' : 'ng/services'
     },
     shim: {
         'app': {
