@@ -55,7 +55,7 @@ module.exports = function(grunt) {
 				src: [
 					'ng/*.js',
 				],
-				dest: 'js/dist/'
+				dest: 'dist/'
 			}
 		}
 
