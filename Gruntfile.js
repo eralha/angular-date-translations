@@ -26,7 +26,7 @@ module.exports = function(grunt) {
 	      src: [
 	      ],//This files are being loaded by our main.js declared in vendors
 	      options: {
-	      	keepRunner: false,
+	      	keepRunner: true,
 	        specs: 'test-jasmine/spec.js',
 	        host: 'http://127.0.0.1:8000/',
 	        vendor: [
@@ -37,9 +37,6 @@ module.exports = function(grunt) {
 	          
 	          requireConfig: {
 	          	baseUrl: "js/src/",
-	          	"paths": {
-				    "app": "ng/app",
-				  },
 	          },
 	        }
 	      }
