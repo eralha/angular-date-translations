@@ -8,7 +8,7 @@
 
 <p>The json file "js/angular.date.translations.json" have the translation maping from "eng" to "pt", it will allways be from "eng" to some language, because the native language of angular filter "date" in eng.</p>
 
-<p>Change this file tho set your language</p>
+<p>Change this file to set your language</p>
 
 ```javascript
 [{
