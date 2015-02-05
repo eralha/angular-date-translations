@@ -6,6 +6,12 @@
 
 ##How to use
 
+<p>Add the module to your module dependencies</p>
+
+```javascript
+	var myApp = angular.module('myApp', ['dateTranslations', ...]);
+```
+
 <p>The json file "js/angular.date.translations.json" have the translation maping from "eng" to "pt", it will allways be from "eng" to some language, because the native language of angular "date" filter is eng.</p>
 
 <p>Change this file to set your language</p>
@@ -44,4 +50,12 @@
 	  //This will trigger a $rootScope.$apply(), and all date filters will be updated
 	  service.load('some_path_to_json');
 	}]);
+```
+
+##Developement
+
+<p>You need to have Grunt and Node.js installed. Then run the command:</p>
+
+```command
+	npm install
 ```
