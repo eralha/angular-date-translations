@@ -52,7 +52,7 @@
 	}]);
 ```
 
-##Developement
+##Development
 
 <p>You need to have Grunt and Node.js installed. Then run the command:</p>
 
