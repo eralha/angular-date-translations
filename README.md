@@ -6,6 +6,8 @@
 
 ##How to use
 
+<p><a href="https://rawgit.com/eralha/angular-date-translations/master/index.html" target="_blank">Example</a></p>
+
 <p>Add the module to your module dependencies</p>
 
 ```javascript
