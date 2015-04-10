@@ -29,15 +29,30 @@ module.exports = function(grunt) {
 	      	keepRunner: true,
 	        specs: 'test-jasmine/spec.js',
 	        host: 'http://127.0.0.1:8000/',
-	        vendor: [
-	          "js/main.js"
-	        ],
+	        
 	        template: require('grunt-template-jasmine-requirejs'),
 	        templateOptions: {
-	          
 	          requireConfig: {
 	          	baseUrl: "js/src/",
-	          },
+	          	paths: {
+			        'angular' : 'lib/angular.min',
+			        'app' : 'ng/date.translate',
+			    },
+			    shim: {
+			        'app': {
+			            deps: ['angular' ]
+			        }
+			    },
+	          	callback: function() {
+	          		require(['app'], function(app){
+						try{
+							angular.bootstrap(document, ['dateTranslations']);
+						}catch(e){
+							console.log(e);
+						}
+					});
+				}
+	          }
 	        }
 	      }
 	    },
